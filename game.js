@@ -11,5 +11,4 @@ const config = {
     height: window.innerHeight, // canvas height
     backgroundColor: '#dbfff3', // canvas background color
     parent: 'phaser-example', // parent DOM element
-    scene: Example // 
 };
