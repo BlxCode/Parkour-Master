@@ -3,7 +3,7 @@ class Parkour extends Phaser.Scene
 
     create ()
     {
-       this.add.text(0, 0, 'Hello World', { font: '"Press Start 2P"' });
+       this.add.text(0, 0, 'Hello World', { font: '"100px Press Start 2P "',  });
 
     }
 }
