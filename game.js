@@ -10,8 +10,8 @@ class Parkour extends Phaser.Scene
 
 new Phaser.Game({
     type: Phaser.AUTO, // automatically detect browser WebGL support
-    width: window.innerWidth, // canvas width
-    height: window.innerHeight, // canvas height
+    width: window.innerWidth -1 , // canvas width
+    height: window.innerHeight - 1, // canvas height
     backgroundColor: '#dbfff3', // canvas background color
     parent: 'phaser-example', // parent DOM element
     scene: Parkour,
